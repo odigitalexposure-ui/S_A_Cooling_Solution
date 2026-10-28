@@ -170,9 +170,8 @@ const Contact = () => {
                     S A COOLING SOLUTION
                   </h3>
                   <p className="text-sm text-slate-300 mt-2 leading-relaxed">
-                    3/2 NILL RATAN MUKHERJEE LANE , SHIBPUR, HOWRAH, NEAR HONEY BEE SCHOOL , HOWRAH, Howrah, West Bengal,
+                    3/2 Nill Ratan Mukherjee Lane , Shibpur, Near Honey Bee School, Howrah, West Bengal,
                     711102
-
                   </p>
                 </div>
               </div>

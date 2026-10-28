@@ -30,32 +30,32 @@ import vid7 from '../assets/vid7.mp4';
 import vid8 from '../assets/vid8.mp4';
 
 const imageGalleryList = [
-  { id: 1, type: 'image', src: img1, title: 'Outdoor AC Condenser Diagnostic', category: 'Inspection', desc: 'Comprehensive technician inspection of the outdoor condenser and compressor electrical circuit.' },
-  { id: 2, type: 'image', src: img2, title: 'High-Pressure Jet Pump Foam Wash', category: 'Deep Clean', desc: 'High-pressure foam spray removing deep trapped dirt and allergens from cooling fins.' },
-  { id: 3, type: 'image', src: img3, title: 'Nitrogen Pressure Test & Gas Refill', category: 'Gas Refilling', desc: 'Precision nitrogen testing to detect micro-leaks followed by 100% pure refrigerant recharge.' },
-  { id: 4, type: 'image', src: img4, title: 'Indoor Split AC Drain Pipe Clearing', category: 'Water Leakage', desc: 'High suction unblocking and leveling of the indoor drain pipe to permanently eliminate water drops.' },
-  { id: 5, type: 'image', src: img5, title: 'Technician Servicing Wall Unit', category: 'Servicing', desc: 'Expert technician servicing an indoor split AC wall unit with precision tools.' },
-  { id: 6, type: 'image', src: img6, title: 'Inverter PCB Board Fault Repair', category: 'Electrical Repair', desc: 'Component-level motherboard repair fixing sensor failures and power communication codes.' },
-  { id: 7, type: 'image', src: img7, title: 'Split AC Precision Installation', category: 'Installation', desc: 'Vibration-free heavy duty wall bracket mounting and copper tube insulation.' },
-  { id: 8, type: 'image', src: img8, title: 'Copper Coil De-clogging & Cleaning', category: 'Maintenance', desc: 'Deep chemical wash restoring optimum thermal exchange on choked copper coils.' },
-  { id: 9, type: 'image', src: img9, title: 'Compressor Amperage & Power Testing', category: 'Diagnostics', desc: 'Testing compressor starting capacitance and power draw under maximum summer heat load.' },
-  { id: 10, type: 'image', src: img10, title: 'Outdoor Unit Bracket & Stand Fitting', category: 'Installation', desc: 'Balcony cantilever bracket securely fastened for rust-resistant outdoor support.' },
-  { id: 11, type: 'image', src: img11, title: 'Evaporator Fins Restoration', category: 'Cooling Fix', desc: 'Delicate fin alignment restoring unobstructed airflow and icy cooling delivery.' },
-  { id: 12, type: 'image', src: img12, title: 'Commercial Multi-Split Servicing', category: 'Commercial', desc: 'Simultaneous multi-unit servicing for commercial offices and retail stores in Kolkata.' },
-  { id: 13, type: 'image', src: img13, title: 'R32 Refrigerant Weight-Scale Charge', category: 'Gas Refilling', desc: 'Digital weight-scale gas replenishment ensuring exact manufacturer specifications.' },
-  { id: 14, type: 'image', src: img14, title: 'Full AC Disassembly & Deep Sanitization', category: 'Deep Clean', desc: 'Complete front panel and blower wheel extraction for hospital-grade air cleaning.' },
-  { id: 15, type: 'image', src: img15, title: 'Pre-Summer Preventive Maintenance Check', category: 'Preventive', desc: 'Full 21-point preventive checklist before the peak summer heatwave.' },
+  { id: 1, type: 'image', src: img1, hideDetails: true },
+  { id: 2, type: 'image', src: img2, hideDetails: true },
+  { id: 3, type: 'image', src: img3, hideDetails: true },
+  { id: 4, type: 'image', src: img4, hideDetails: true },
+  { id: 5, type: 'image', src: img5, hideDetails: true },
+  { id: 6, type: 'image', src: img6, hideDetails: true },
+  { id: 7, type: 'image', src: img7, hideDetails: true },
+  { id: 8, type: 'image', src: img8, hideDetails: true },
+  { id: 9, type: 'image', src: img9, hideDetails: true },
+  { id: 10, type: 'image', src: img10, hideDetails: true },
+  { id: 11, type: 'image', src: img11, hideDetails: true },
+  { id: 12, type: 'image', src: img12, hideDetails: true },
+  { id: 13, type: 'image', src: img13, hideDetails: true },
+  { id: 14, type: 'image', src: img14, hideDetails: true },
+  { id: 15, type: 'image', src: img15, hideDetails: true },
 ];
 
 const videoGalleryList = [
-  { id: 1, type: 'video', src: vid1, title: 'Live High-Pressure AC Jet Pump Servicing', category: 'Jet Cleaning', desc: 'Watch our technician clean deep dust and grime from indoor cooling fins.' },
-  { id: 2, type: 'video', src: vid2, title: 'Outdoor Condenser Coil Deep Chemical Wash', category: 'Condenser Wash', desc: 'Restoring air exchange efficiency on a heavily choked outdoor unit.' },
-  { id: 3, type: 'video', src: vid3, title: 'Split AC Water Leakage Repair & Pipe Unclogging', category: 'Leak Repair', desc: 'Fixing stubborn interior water dripping with pressure suction.' },
-  { id: 4, type: 'video', src: vid4, title: 'Precision Gas Charging & Leak Brazing in Action', category: 'Gas Refilling', desc: 'Welding micro-cracks on copper pipes and testing with nitrogen gas.' },
-  { id: 5, type: 'video', src: vid5, title: 'Inverter AC Motherboard Diagnostic & Test Run', category: 'PCB Repair', desc: 'Troubleshooting circuit board communication error codes.' },
-  { id: 6, type: 'video', src: vid6, title: 'Complete AC Servicing Procedure Walkthrough', category: 'Full Service', desc: 'From diagnosis to final icy temperature measurement.' },
-  { id: 7, type: 'video', src: vid7, title: 'Rapid Doorstep Response in Kolkata', category: 'Doorstep Visit', desc: 'Technician on-site repairing customer AC within 60 minutes.' },
-  { id: 8, type: 'video', src: vid8, title: 'AC Installation & Heavy-Duty Stand Mounting', category: 'Installation', desc: 'Vibration-free outdoor unit mounting on customer balcony.' },
+  { id: 1, type: 'video', src: vid1, hideDetails: true },
+  { id: 2, type: 'video', src: vid2, hideDetails: true },
+  { id: 3, type: 'video', src: vid3, hideDetails: true },
+  { id: 4, type: 'video', src: vid4, hideDetails: true },
+  { id: 5, type: 'video', src: vid5, hideDetails: true },
+  { id: 6, type: 'video', src: vid6, hideDetails: true },
+  { id: 7, type: 'video', src: vid7, hideDetails: true },
+  { id: 8, type: 'video', src: vid8, hideDetails: true },
 ];
 
 const Gallery = () => {
@@ -78,7 +78,7 @@ const Gallery = () => {
       <div className="absolute bottom-1/4 left-0 w-80 h-80 bg-blue-200/40 rounded-full blur-3xl pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        
+
         {/* Main Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-cyan-100/90 text-cyan-800 text-xs sm:text-sm font-bold tracking-wide uppercase mb-3">
@@ -89,7 +89,7 @@ const Gallery = () => {
             Our Work in Photos & Live Videos
           </h2>
           <p className="mt-4 text-slate-600 text-base sm:text-lg">
-            See real work performed by S A COOLING SOLUTION across homes, offices, and commercial establishments in Kolkata. Click any photo or video to view in fullscreen modal.
+            See real work performed by S A COOLING SOLUTION across homes, offices, and commercial establishments in Kolkata.
           </p>
         </div>
 
@@ -107,7 +107,7 @@ const Gallery = () => {
                   Image Gallery ({imageGalleryList.length} Photos)
                 </h3>
                 <p className="text-xs sm:text-sm text-slate-500">
-                  Click any image to enlarge in modal with previous, next & close buttons
+                  Click any image to view in fullscreen modal
                 </p>
               </div>
             </div>
@@ -118,7 +118,7 @@ const Gallery = () => {
             </span>
           </div>
 
-          {/* Photo Grid */}
+          {/* Photo Grid - Only Clean Images, No Details or Text */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {displayedImages.map((item, index) => {
               const fullIndex = imageGalleryList.findIndex((img) => img.id === item.id);
@@ -126,7 +126,7 @@ const Gallery = () => {
                 <div
                   key={item.id}
                   onClick={() => openModal(imageGalleryList, fullIndex >= 0 ? fullIndex : index)}
-                  className="group relative rounded-2xl overflow-hidden bg-white shadow-md hover:shadow-2xl transition-all duration-300 cursor-pointer border border-slate-200/80 hover:-translate-y-1"
+                  className="group relative rounded-2xl overflow-hidden bg-slate-100 shadow-md hover:shadow-2xl transition-all duration-300 cursor-pointer border border-slate-200/80 hover:-translate-y-1"
                   role="button"
                   tabIndex={0}
                   onKeyDown={(e) => {
@@ -134,39 +134,22 @@ const Gallery = () => {
                       openModal(imageGalleryList, fullIndex >= 0 ? fullIndex : index);
                     }
                   }}
-                  aria-label={`Open image: ${item.title}`}
+                  aria-label={`View photo ${item.id}`}
                 >
                   <div className="aspect-[4/3] w-full overflow-hidden bg-slate-100">
                     <img
                       src={item.src}
-                      alt={item.title}
-                      className="w-full h-full object-cover object-center group-hover:scale-108 transition-transform duration-500"
+                      alt="AC Servicing Photo"
+                      className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
                       loading="lazy"
                     />
                   </div>
 
-                  {/* Gradient Overlay and Hover Caption */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-5 text-white">
-                    <span className="text-[11px] font-bold text-cyan-300 uppercase tracking-wider">
-                      {item.category}
-                    </span>
-                    <h4 className="font-bold text-sm sm:text-base leading-snug mt-1">
-                      {item.title}
-                    </h4>
-                    <div className="mt-3 flex items-center gap-2 text-xs text-slate-300">
-                      <ZoomIn className="w-4 h-4 text-cyan-400" />
-                      <span>Click to View in Modal</span>
+                  {/* Clean subtle hover overlay with zoom icon - NO text or details */}
+                  <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                    <div className="w-12 h-12 rounded-full bg-slate-900/80 backdrop-blur-md text-white flex items-center justify-center shadow-lg border border-white/20 group-hover:scale-110 transition-transform">
+                      <ZoomIn className="w-5 h-5 text-cyan-400" />
                     </div>
-                  </div>
-
-                  {/* Persistent Bottom Bar on Mobile/Desktop */}
-                  <div className="p-3.5 bg-white border-t border-slate-100 flex items-center justify-between">
-                    <span className="font-semibold text-xs text-slate-800 truncate mr-2">
-                      {item.title}
-                    </span>
-                    <span className="text-[10px] font-bold px-2 py-0.5 rounded bg-cyan-50 text-cyan-700 shrink-0">
-                      {item.category}
-                    </span>
                   </div>
                 </div>
               );
@@ -208,7 +191,7 @@ const Gallery = () => {
                   Video Demonstrations ({videoGalleryList.length} Live Clips)
                 </h3>
                 <p className="text-xs sm:text-sm text-slate-500">
-                  Click any video to play in modal with previous, next & close buttons
+                  Click any video to play in fullscreen modal
                 </p>
               </div>
             </div>
@@ -218,15 +201,15 @@ const Gallery = () => {
             </span>
           </div>
 
-          {/* Video Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+          {/* Video Grid - Only Clean Video Thumbnails with Play Button, No Details or Text */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {displayedVideos.map((video, index) => {
               const fullIndex = videoGalleryList.findIndex((v) => v.id === video.id);
               return (
                 <div
                   key={video.id}
                   onClick={() => openModal(videoGalleryList, fullIndex >= 0 ? fullIndex : index)}
-                  className="bg-white rounded-2xl overflow-hidden shadow-lg border border-slate-200/90 flex flex-col justify-between hover:shadow-2xl transition-all duration-300 cursor-pointer group hover:-translate-y-1.5"
+                  className="group relative rounded-2xl overflow-hidden bg-slate-950 shadow-md hover:shadow-2xl transition-all duration-300 cursor-pointer border border-slate-200/80 hover:-translate-y-1"
                   role="button"
                   tabIndex={0}
                   onKeyDown={(e) => {
@@ -234,10 +217,9 @@ const Gallery = () => {
                       openModal(videoGalleryList, fullIndex >= 0 ? fullIndex : index);
                     }
                   }}
-                  aria-label={`Play video in modal: ${video.title}`}
+                  aria-label={`Play video ${video.id}`}
                 >
-                  {/* Video Thumbnail Preview with Play Overlay */}
-                  <div className="relative aspect-video bg-slate-950 w-full overflow-hidden">
+                  <div className="aspect-[4/3] sm:aspect-video w-full overflow-hidden bg-slate-950">
                     <video
                       preload="metadata"
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-90 group-hover:opacity-100"
@@ -246,42 +228,12 @@ const Gallery = () => {
                     >
                       <source src={video.src} type="video/mp4" />
                     </video>
-
-                    {/* Attractive Glowing Play Button & Info Overlay */}
-                    <div className="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-black/25 to-transparent flex items-center justify-center">
-                      <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-cyan-600/95 group-hover:bg-cyan-500 text-white flex items-center justify-center shadow-xl shadow-cyan-600/40 group-hover:scale-110 transition-all duration-300 border-2 border-white/20">
-                        <Play className="w-6 h-6 sm:w-7 sm:h-7 fill-white ml-0.5" />
-                      </div>
-                      
-                      <div className="absolute bottom-3 left-3 right-3 flex items-center justify-between text-white text-xs">
-                        <span className="font-semibold bg-slate-900/85 px-2.5 py-1 rounded-md backdrop-blur-md border border-slate-700/60 shadow-md">
-                          Click to Play in Modal
-                        </span>
-                        <span className="text-cyan-300 font-bold bg-slate-900/85 px-2 py-1 rounded-md border border-slate-700/60">
-                          Clip #{video.id}
-                        </span>
-                      </div>
-                    </div>
                   </div>
 
-                  {/* Video Info Caption */}
-                  <div className="p-5 flex-1 flex flex-col justify-between">
-                    <div>
-                      <div className="flex items-center gap-2 text-xs font-bold text-cyan-600 mb-1">
-                        <Play className="w-3.5 h-3.5 fill-cyan-600" />
-                        <span>On-Site Servicing Clip #{video.id}</span>
-                      </div>
-                      <h4 className="font-bold text-base text-slate-900 leading-snug group-hover:text-cyan-700 transition-colors">
-                        {video.title}
-                      </h4>
-                      <p className="text-xs text-slate-600 mt-2 leading-relaxed">
-                        {video.desc}
-                      </p>
-                    </div>
-
-                    <div className="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-xs text-cyan-600 font-bold">
-                      <span>Watch in Modal</span>
-                      <span className="group-hover:translate-x-1 transition-transform">→</span>
+                  {/* Clean Glowing Play Button - NO text, NO details */}
+                  <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors flex items-center justify-center">
+                    <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-cyan-600/90 group-hover:bg-cyan-500 text-white flex items-center justify-center shadow-xl shadow-cyan-600/40 group-hover:scale-110 transition-all duration-300 border-2 border-white/20">
+                      <Play className="w-6 h-6 sm:w-7 sm:h-7 fill-white ml-0.5" />
                     </div>
                   </div>
                 </div>

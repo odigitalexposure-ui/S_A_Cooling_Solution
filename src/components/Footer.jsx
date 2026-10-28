@@ -114,9 +114,8 @@ const Footer = () => {
               <div className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-cyan-400 shrink-0 mt-0.5" />
                 <span className="text-slate-300">
-                  S A COOLING SOLUTION <br /> 3/2 NILL RATAN MUKHERJEE LANE ,
-                  SHIBPUR, HOWRAH, NEAR HONEY BEE SCHOOL , HOWRAH, Howrah, West
-                  Bengal, 711102
+                  3/2 Nill Ratan Mukherjee Lane , Shibpur, Near Honey Bee School, Howrah, West Bengal,
+                  711102
                 </span>
               </div>
 

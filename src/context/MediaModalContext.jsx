@@ -99,7 +99,7 @@ export const MediaModalProvider = ({ children }) => {
                   )}
                 </span>
 
-                {currentItem.category && (
+                {!currentItem.hideDetails && currentItem.category && (
                   <span className="hidden sm:inline-block text-xs font-semibold text-slate-400 border-l border-slate-700 pl-3">
                     {currentItem.category}
                   </span>
@@ -166,28 +166,36 @@ export const MediaModalProvider = ({ children }) => {
                   <img
                     key={currentItem.src}
                     src={currentItem.src}
-                    alt={currentItem.title || 'S A Cooling Solution'}
+                    alt={currentItem.hideDetails ? 'AC Service Work' : (currentItem.title || 'S A Cooling Solution')}
                     className="max-h-[62vh] sm:max-h-[68vh] w-auto max-w-full object-contain mx-auto rounded-xl shadow-2xl transition-opacity duration-200"
                   />
                 </div>
               )}
             </div>
 
-            {/* 3. Modal Bottom Bar with Captions & Navigation Controls */}
-            <div className="p-3.5 sm:p-4 bg-slate-900 border-t border-slate-800 flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-slate-200">
-              <div className="min-w-0 flex-1">
-                <h4 className="font-bold text-sm sm:text-base text-white truncate">
-                  {currentItem.title || 'S A COOLING SOLUTION Service'}
-                </h4>
-                {currentItem.desc && (
-                  <p className="text-xs text-slate-400 mt-0.5 line-clamp-1 sm:line-clamp-2">
-                    {currentItem.desc}
-                  </p>
-                )}
-              </div>
+            {/* 3. Modal Bottom Bar with Navigation Controls */}
+            <div className="p-3.5 sm:p-4 bg-slate-900 border-t border-slate-800 flex items-center justify-between gap-3 text-slate-200">
+              {!currentItem.hideDetails && (currentItem.title || currentItem.desc) ? (
+                <div className="min-w-0 flex-1">
+                  {currentItem.title && (
+                    <h4 className="font-bold text-sm sm:text-base text-white truncate">
+                      {currentItem.title}
+                    </h4>
+                  )}
+                  {currentItem.desc && (
+                    <p className="text-xs text-slate-400 mt-0.5 line-clamp-1 sm:line-clamp-2">
+                      {currentItem.desc}
+                    </p>
+                  )}
+                </div>
+              ) : (
+                <div className="text-xs font-semibold text-slate-400">
+                  {items.length > 1 && <span>Gallery Showcase ({currentIndex + 1} of {items.length})</span>}
+                </div>
+              )}
 
               {/* Action Buttons for Easy Navigation */}
-              <div className="flex items-center gap-2 shrink-0 self-end sm:self-auto">
+              <div className="flex items-center gap-2 shrink-0 ml-auto">
                 <button
                   type="button"
                   onClick={prevMedia}
