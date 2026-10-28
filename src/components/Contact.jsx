@@ -31,7 +31,7 @@ const Contact = () => {
     ].filter(Boolean).join('\n');
 
     const encodedMessage = encodeURIComponent(messageLines);
-    const url = `https://wa.me/917439782485?text=${encodedMessage}`;
+    const url = `https://wa.me/919804685701?text=${encodedMessage}`;
     setWhatsappLink(url);
     setFormSubmitted(true);
 
@@ -63,22 +63,33 @@ const Contact = () => {
         {/* Top Contact Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mb-14">
 
-          {/* Card 1: Primary Hotline */}
+          {/* Card 1: Main Helpline */}
           <div className="bg-slate-50 border border-slate-200/90 rounded-2xl p-6 hover:shadow-lg hover:border-cyan-400 transition-all">
             <div className="w-12 h-12 rounded-xl bg-cyan-500/10 text-cyan-600 flex items-center justify-center mb-4">
               <Phone className="w-6 h-6" />
             </div>
-            <h3 className="font-bold text-slate-900 text-base">Helpline & Booking</h3>
+            <h3 className="font-bold text-slate-900 text-base">Main Number / Booking</h3>
             <p className="text-xs text-slate-500 mt-1 mb-3">Call for immediate technician dispatch</p>
             <a
-              href="tel:+917439782485"
+              href="tel:+919804685701"
               className="text-base font-extrabold text-cyan-600 hover:text-cyan-700 block"
             >
-              +91 7439 782 485
+              +91 98046 85701
             </a>
-            <span className="inline-block mt-2 text-[10px] uppercase font-bold text-emerald-700 bg-emerald-100 px-2 py-0.5 rounded">
-              Available 24/7
-            </span>
+            <div className="flex flex-wrap items-center gap-1.5 mt-2">
+              <span className="text-[10px] uppercase font-bold text-emerald-700 bg-emerald-100 px-2 py-0.5 rounded">
+                Main Line (24/7)
+              </span>
+              <a
+                href="https://wa.me/919804685701?text=Hello%20S%20A%20Cooling%20Solution,%20I%20need%20AC%20repair%20service"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[10px] uppercase font-bold text-emerald-800 bg-emerald-100 hover:bg-emerald-200 px-2 py-0.5 rounded transition-colors"
+                title="Chat with Main WhatsApp"
+              >
+                WhatsApp Enabled
+              </a>
+            </div>
           </div>
 
           {/* Card 2: Secondary / Alternate Hotline */}
@@ -95,7 +106,7 @@ const Contact = () => {
               +91 7439 782 485
             </a>
             <span className="inline-block mt-2 text-[10px] uppercase font-bold text-blue-700 bg-blue-100 px-2 py-0.5 rounded">
-              WhatsApp Enabled
+              Secondary Line
             </span>
           </div>
 
@@ -179,17 +190,27 @@ const Contact = () => {
               {/* Action Buttons inside Address Card */}
               <div className="mt-6 pt-6 border-t border-slate-700/80 flex flex-wrap items-center gap-3">
                 <a
-                  href="tel:+917439782485"
+                  href="tel:+919804685701"
                   className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl font-bold text-xs sm:text-sm bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white shadow-md shadow-cyan-600/30 transition-all"
+                  title="Call Main Number: +91 98046 85701"
                 >
                   <Phone className="w-4 h-4" />
-                  <span>Call +91 7439 782 485</span>
+                  <span>Call Main: +91 98046 85701</span>
                 </a>
                 <a
-                  href="https://wa.me/917439782485?text=Hello%20S%20A%20Cooling%20Solution,%20I%20need%20AC%20repair%20service"
+                  href="tel:+917439782485"
+                  className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl font-semibold text-xs sm:text-sm bg-slate-800 hover:bg-slate-700 text-cyan-300 border border-slate-600 transition-all"
+                  title="Call Secondary Number: +91 7439 782 485"
+                >
+                  <Phone className="w-3.5 h-3.5 text-cyan-400" />
+                  <span>Secondary: +91 7439 782 485</span>
+                </a>
+                <a
+                  href="https://wa.me/919804685701?text=Hello%20S%20A%20Cooling%20Solution,%20I%20need%20AC%20repair%20service"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl font-bold text-xs sm:text-sm bg-emerald-600 hover:bg-emerald-500 text-white shadow-md transition-all"
+                  title="WhatsApp: +91 98046 85701"
                 >
                   <MessageSquare className="w-4 h-4" />
                   <span>WhatsApp Chat</span>
@@ -334,7 +355,7 @@ const Contact = () => {
                     <span>Send Booking via WhatsApp</span>
                   </button>
                   <p className="text-[11px] text-center text-slate-500 pt-1 flex items-center justify-center gap-1">
-                    <span>⚡ Automatically opens WhatsApp chat with +91 7439 782 485</span>
+                    <span>⚡ Automatically opens WhatsApp chat with +91 98046 85701</span>
                   </p>
                 </form>
               )}

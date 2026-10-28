@@ -189,11 +189,12 @@ const About = () => {
                                 <span>Explore All Services</span>
                             </a>
                             <a
-                                href="tel:+917439782485"
+                                href="tel:+919804685701"
                                 className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl font-bold text-cyan-700 bg-cyan-50 hover:bg-cyan-100 border border-cyan-200 transition-colors text-sm"
+                                title="Call Main Helpline: +91 98046 85701"
                             >
                                 <Phone className="w-4 h-4" />
-                                <span>Call Helpline: +91 7439 782 485</span>
+                                <span>Call Helpline: +91 98046 85701</span>
                             </a>
                         </div>
                     </div>

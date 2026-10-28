@@ -209,11 +209,12 @@ const Hero = () => {
                                 <span>Book Instant AC Service</span>
                             </a>
                             <a
-                                href="tel:+917439782485"
+                                href="tel:+919804685701"
                                 className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl font-bold text-cyan-200 bg-slate-900/90 hover:bg-slate-800 border border-cyan-500/40 hover:border-cyan-400 hover:text-white shadow-lg transition-all text-sm sm:text-base text-center group"
+                                title="Call Main Number: +91 98046 85701"
                             >
                                 <Phone className="w-4 h-4 sm:w-5 sm:h-5 text-cyan-400 group-hover:rotate-12 transition-transform" />
-                                <span>Call +91 7439 782 485</span>
+                                <span>Call +91 98046 85701</span>
                             </a>
                         </div>
 
@@ -222,6 +223,12 @@ const Hero = () => {
                             <span className="inline-flex items-center gap-1.5 font-bold text-emerald-400 bg-emerald-950/60 px-2.5 py-1 rounded-md border border-emerald-800/50">
                                 <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping" />
                                 Technicians Available Across Kolkata
+                            </span>
+                            <span className="text-slate-300">
+                                Secondary Line:{' '}
+                                <a href="tel:+917439782485" className="text-cyan-400 hover:underline font-semibold">
+                                    +91 7439 782 485
+                                </a>
                             </span>
                             <span>All Brands: Voltas, Daikin, LG, Samsung, Blue Star, Lloyd</span>
                         </div>

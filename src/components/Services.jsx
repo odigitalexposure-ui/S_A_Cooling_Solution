@@ -278,11 +278,12 @@ const Services = () => {
                     </div>
                     <div className="flex flex-col sm:flex-row gap-3 w-full md:w-auto">
                         <a
-                            href="tel:+917439782485"
+                            href="tel:+919804685701"
                             className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl font-extrabold text-white bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 shadow-lg text-sm"
+                            title="Call Main Number: +91 98046 85701"
                         >
                             <Phone className="w-4 h-4" />
-                            <span>Call +91 7439 782 485</span>
+                            <span>Call +91 98046 85701</span>
                         </a>
                         <a
                             href="#contact"

@@ -8,6 +8,7 @@ import {
   ShieldCheck,
   Heart,
   ArrowUp,
+  MessageSquare,
 } from "lucide-react";
 
 const Footer = () => {
@@ -103,7 +104,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Right Section: Address with phone number, email, and secondary number (+91 7439 782 485) */}
+          {/* Right Section: Address with main phone number, secondary number, and email */}
           <div className="lg:col-span-4 space-y-4">
             <h4 className="text-sm font-extrabold text-white uppercase tracking-wider border-b border-slate-800 pb-2">
               Contact & Support
@@ -119,23 +120,35 @@ const Footer = () => {
                 </span>
               </div>
 
-              {/* Primary Phone */}
+              {/* Main Phone & WhatsApp */}
               <div className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-cyan-400 shrink-0" />
                 <div className="flex flex-col">
                   <span className="text-[11px] text-slate-400">
-                    Primary Contact:
+                    Main & WhatsApp Number:
                   </span>
-                  <a
-                    href="tel:+917439782485"
-                    className="font-bold text-white hover:text-cyan-400 transition-colors"
-                  >
-                    +91 7439 782 485
-                  </a>
+                  <div className="flex items-center gap-2">
+                    <a
+                      href="tel:+919804685701"
+                      className="font-bold text-white hover:text-cyan-400 transition-colors"
+                    >
+                      +91 98046 85701
+                    </a>
+                    <a
+                      href="https://wa.me/919804685701?text=Hello%20S%20A%20Cooling%20Solution,%20I%20need%20AC%20repair%20service"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1 text-[11px] font-bold text-emerald-400 hover:text-emerald-300 bg-emerald-950/70 border border-emerald-700/60 px-2 py-0.5 rounded-full transition-colors"
+                      title="Chat on WhatsApp"
+                    >
+                      <MessageSquare className="w-3 h-3 fill-emerald-400" />
+                      <span>WhatsApp</span>
+                    </a>
+                  </div>
                 </div>
               </div>
 
-              {/* Secondary Number (+91 7439 782 485) as specifically requested */}
+              {/* Secondary Number */}
               <div className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-cyan-400 shrink-0" />
                 <div className="flex flex-col">
