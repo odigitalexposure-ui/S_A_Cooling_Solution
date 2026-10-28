@@ -54,32 +54,6 @@ const FloatingCTA = () => {
           <span className="font-extrabold">+91 7439 782 485</span>
         </a>
       </div>
-
-      {/* Mobile Bottom Fixed Bar for 1-Tap Calling */}
-      <div className="fixed bottom-0 left-0 right-0 z-40 bg-slate-950/95 backdrop-blur-md border-t border-slate-800 p-2.5 flex sm:hidden items-center justify-between gap-2 shadow-2xl">
-        <a
-          href="tel:+917439782485"
-          className="flex-1 flex items-center justify-center gap-2 py-2.5 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-extrabold text-xs shadow-md"
-        >
-          <Phone className="w-4 h-4" />
-          <span>Call: 7439 782 485</span>
-        </a>
-        <a
-          href="https://wa.me/917439782485?text=Hello%20S%20A%20Cooling%20Solution,%20I%20need%20AC%20repair%20service"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex-1 flex items-center justify-center gap-2 py-2.5 rounded-xl bg-emerald-600 text-white font-extrabold text-xs shadow-md"
-        >
-          <MessageSquare className="w-4 h-4 fill-white" />
-          <span>WhatsApp</span>
-        </a>
-        <a
-          href="#contact"
-          className="px-3 py-2.5 rounded-xl bg-slate-800 text-cyan-300 font-bold text-xs border border-slate-700"
-        >
-          Book
-        </a>
-      </div>
     </>
   );
 };
